@@ -1,0 +1,376 @@
+/* Цвет вторичного текста #212121;*/ 
+/* Цвет основного текста #757575;*/
+/* Белий цвет #FFFFFF;*/
+/* Цвет лого #2196F3;*/
+/* акцент #2196F3;*/
+/* футер адрес rgba(255, 255, 255, 0.6);*/
+/* футер текст rgba(255, 255, 255, 0.4);*/
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-title-color: #FFFFFF;
+    --primary-bg-colot:#FFFFFF; 
+    --link-color:#AFB1B8;
+    --footer-ad-color: rgba(255, 255, 255, 0.6);
+    --footer-text-color: rgba(255, 255, 255, 0.4);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    outline: 2px solid tomato;
+}
+.body {
+    background-color: var(--primary-bg-colot);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+.logo {
+    color: var(--accent-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-second {
+    color: var(--title-text-color);
+}
+
+.logo-footer {
+    color: var(--second-title-color);
+}
+
+ ul {
+     padding: 0;
+     margin: 0;
+    list-style: none;
+}
+
+.page-header {
+    background-color: var(--primary-bg-colot);
+    
+}
+
+/* Site nav*/
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+
+.site-nav .link-curret {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.auth-nav .link:hover {
+    color: var(--accent-color);
+}
+
+/* Hero*/
+
+.hero-title {
+    color: var(--second-title-color);
+
+    margin-top: 0;
+    margin-bottom: 46px;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    background-color: tomato;
+}
+
+/* Section*/
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title {
+    color: var(--title-text-color);
+
+   margin-top: 0;
+   margin-bottom: 0;
+
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em; 
+    
+}
+
+/* Description*/
+
+.section-description .title {
+    color: var(--second-title-color);
+
+ 
+
+}
+
+.description-list .title {
+    color: var(--title-text-color);
+
+    margin-top: 0;
+    margin-bottom: 10px;
+      
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase; 
+       
+}
+
+.description-list p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.description-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  
+}
+.description-list .svg {
+    background-color: #F5F4FA;
+}
+
+.description-list .svg:hover {
+    background-color: var(--accent-color);
+}
+
+/* Work*/
+
+.work-list .title {
+    color: var(--second-title-color);
+    
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   
+}
+
+.work-list .link {
+    text-decoration: none;
+}
+
+/*Team*/
+
+.team-list .title {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list .text {
+    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.chain .link {
+    color: var(--primary-text-color);
+    background-color: var(--link-color);
+    text-decoration: none;
+}
+
+.chain .link:hover, 
+.chain .link:focus {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+}
+
+/*Button*/
+
+.button {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+    
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    border: 1px solid transparent;
+
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button .primary {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+    
+}
+
+/* Clients*/
+
+.clients .link {
+    color: var(--link-color);
+}
+.clients .link:hover,
+.clients .link:focus {
+    background-color: var(--accent-color);
+}
+
+/*Footer*/
+
+.address-list .text {
+    color: var(--second-title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.address-list .link {
+    color: var(--footer-ad-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+
+.subscription {
+    color: var(--second-title-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social-network .link {
+    color: var(--second-title-color);
+    background-color: var(--link-color);
+    text-decoration: none;
+}
+
+.social-network .link:hover, 
+.social-network .link:focus {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+}
+
+.company {
+    color: var(--footer-text-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+
+
+
+
+/*Portfolio*/
+
+/*Button*/
+
+.button-portfolio {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-colot);
+}
+
+.button-portfolio .type:hover,
+.button-portfolio .type:focus {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+}
+
+.section-portfolio .title {
+    color: var(--second-title-color);
+    
+}
+
+.card-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  
+}
+.card-list .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+}
+
+.card-list .link {
+    text-decoration: none;
+}
+
+.card-list .link:hover, .card-list .link:focus {
+    color: var(--second-title-color);
+    background-color: var(--accent-color);
+}
+
+.card-list .text-second {
+    color: var(--second-title-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    
+}
