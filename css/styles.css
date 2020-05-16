@@ -20,6 +20,8 @@
 .container {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1230px;
     outline: 2px solid tomato;
 }
@@ -120,11 +122,12 @@
     padding-bottom: 94px;
 }
 
+
 .section-title {
     color: var(--title-text-color);
 
    margin-top: 0;
-   margin-bottom: 0;
+   margin-bottom: 50px;
 
    font-weight: 700;
    font-size: 36px;
@@ -182,6 +185,9 @@
 
 .work-list .title {
     color: var(--second-title-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
     
    font-weight: 700;
    font-size: 14px;
@@ -200,20 +206,26 @@
 
 .team-list .title {
     color: var(--title-text-color);
+
+    margin-top: 0;
+    margin-bottom: 10px;
     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-list .text {
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+
     
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -322,26 +334,45 @@
 
 /*Portfolio*/
 
-/*Button*/
+/*Button-portfolio*/
 
 .button-portfolio {
+ 
     color: var(--title-text-color);
     background-color: var(--primary-bg-colot);
-}
+    
+    font-family: inherit;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+   }
 
 .button-portfolio .type:hover,
 .button-portfolio .type:focus {
     color: var(--second-title-color);
     background-color: var(--accent-color);
-}
+} 
+
 
 .section-portfolio .title {
     color: var(--second-title-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
 .card-list .title {
     color: var(--title-text-color);
+
+    margin-top: 0;
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -350,6 +381,10 @@
 }
 .card-list .text {
     color: var(--primary-text-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -368,6 +403,10 @@
 
 .card-list .text-second {
     color: var(--second-title-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
