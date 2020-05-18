@@ -247,6 +247,7 @@ ul {
 }
 .description-list .svg {
     background-color: #F5F4FA;
+    border-radius: 4px;
 }
 
 .description-list .svg:hover {
@@ -387,18 +388,21 @@ ul {
 }
 
 /*Footer*/
-
 .page-footer {
     background-color: #2F303A;
 }
 
-.footer-info {
+.page-footer .container {
+    
+    padding-top: 46px;
     display: flex;
+  
 }
 
+
 .contact-info {
-    margin-top: 48px;
-    margin-bottom: 88px;
+    margin-bottom: 10px;
+ 
 } 
 
 
@@ -441,11 +445,6 @@ ul {
 .subscription {
     color: var(--second-title-color);
 
-    margin-top: 21px;
-
-    margin-top: 0;
-    margin-bottom: 0;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -454,15 +453,10 @@ ul {
 
 }
 
-.subscription-text {
-    margin-top: 0;
-    margin-bottom: 21px;
-}
 
 
 .social-network .link {
     
-    display: block;
     color: var(--second-title-color);
     background-color: var(--link-color);
     text-decoration: none;
@@ -474,16 +468,13 @@ ul {
     background-color: var(--accent-color);
 }
 
-.company-info {
-    margin-top: 211px;
-    margin-bottom: 21px;
-   
 
-}
 .company-text  {
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
     
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 18px;
+    margin-bottom: 21px;
     
     color: var(--footer-text-color);
     font-weight: 400;
@@ -506,12 +497,8 @@ ul {
 
 .portfolio-list {
     display: flex;
-    justify-content: center
-}
-
-.portfolio-list .item {
+    justify-content: center;
     margin-bottom: 50px;
-    ;
 }
 
 .portfolio-list .item:not(:last-child) {
