@@ -17,12 +17,22 @@
     --footer-text-color: rgba(255, 255, 255, 0.4);
 }
 
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1200px;
+    width: 1230px;
     outline: 2px solid tomato;
 }
 .body {
@@ -474,7 +484,7 @@ ul {
     
     margin-top: 0px;
     margin-bottom: 0px;
-
+    
     color: var(--footer-text-color);
     font-weight: 400;
     font-size: 12px;
@@ -544,7 +554,6 @@ ul {
 .card-list {
     display: flex;
     flex-wrap: wrap;
-    background-color: tomato;
     
 }
 
