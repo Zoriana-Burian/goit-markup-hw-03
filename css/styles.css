@@ -32,8 +32,8 @@ html {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1230px;
-    outline: 2px solid tomato;
+    width: 1200px;
+    /*outline: 2px solid tomato;*/
 }
 .body {
     background-color: var(--primary-bg-colot);
@@ -56,9 +56,6 @@ html {
     color: var(--title-text-color);
 }
 
-.logo-footer {
-    color: var(--second-title-color);
-}
 
 ul {
      padding: 0;
@@ -211,7 +208,7 @@ ul {
 }
 
 .description-list .item {
-    width: 278px;
+    width: 270px;
 }
 
 .description-list .item:not(:last-child) {
@@ -261,7 +258,7 @@ ul {
 }
 
 .work-list .item {
-    width: 380px;
+    width: 370px;
 }
 
 .work-list .item:not(:last-child) {
@@ -289,12 +286,17 @@ ul {
 
 /*Team*/
 
+.section-team {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team-list {
     display: flex;
 }
 
 .team-list .item {
-    width: 278px;
+    width: 270px;
    
 }
 
@@ -372,7 +374,10 @@ ul {
 }
 
 .clients-list .item {
-    width: 175px;
+    width: 170px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .clients-list .item:not(:last-child) {
@@ -392,22 +397,39 @@ ul {
     background-color: #2F303A;
 }
 
+
 .page-footer .container {
-    
-    padding-top: 46px;
     display: flex;
-  
+    padding-top: 48px;
+    padding-bottom: 28px;
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
-
-.contact-info {
-    margin-bottom: 10px;
+.footer-logo {
+    color: var(--accent-color);
  
-} 
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-accent {
+    color: var(--second-title-color);
+    
+}
 
+.address-list {
+    display: flex;
+    flex-direction: column;
+}
 
 .address-list .text {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 9px;
 
 
@@ -435,14 +457,11 @@ ul {
 
 }
 
-.subscription-info {
-    margin-top: 56px;
-    margin-bottom: 116px;
-    margin-left: 69px;
 
-}
-
-.subscription {
+.subscription-text {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 21px;
     color: var(--second-title-color);
 
     font-weight: 700;
@@ -450,7 +469,10 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
 
+.social-network {
+    display: flex;
 }
 
 
@@ -471,10 +493,11 @@ ul {
 
 .company-text  {
 
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 0;
+    margin-bottom: 0;
     
-    margin-top: 18px;
-    margin-bottom: 21px;
+    padding-top: 18px;
+    padding-bottom: 21px;
     
     color: var(--footer-text-color);
     font-weight: 400;
@@ -519,6 +542,8 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
 
+    border: 1px solid #F5F4FA;
+
     border-radius: 4px;
     
    }
@@ -527,6 +552,7 @@ ul {
 .portfolio-list .type:focus {
     color: var(--second-title-color);
     background-color: var(--accent-color);
+ 
 } 
 
 
@@ -545,7 +571,7 @@ ul {
 }
 
 .card-list .item {
-    width: 380px;
+    width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
     align-items: center;
