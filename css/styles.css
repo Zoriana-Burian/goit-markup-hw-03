@@ -64,6 +64,11 @@ ul {
      list-style: none;
 }
 
+.img {
+    display: block;
+    
+}
+
 /*Main-nav*/
 
 .main-nav {
@@ -116,6 +121,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
     color: var(--accent-color);
 
@@ -245,6 +251,9 @@ ul {
   
 }
 .description-list .svg {
+    margin-bottom: 30px;
+
+
     background-color: #F5F4FA;
     border-radius: 4px;
 }
@@ -283,6 +292,8 @@ ul {
 }
 
 .work-list .link {
+    display: block;
+
     text-decoration: none;
 }
 
@@ -310,7 +321,7 @@ ul {
 .team-list .title {
     color: var(--title-text-color);
 
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
     
     font-weight: 500;
@@ -323,7 +334,7 @@ ul {
 .team-list .text {
 
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 
 
     
@@ -334,14 +345,17 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.chain .link {
+
+
+.chain-list .link {
+
     color: var(--primary-text-color);
     background-color: var(--link-color);
     text-decoration: none;
 }
 
-.chain .link:hover, 
-.chain .link:focus {
+.chain-list .link:hover, 
+.chain-list .link:focus {
     color: var(--second-title-color);
     background-color: var(--accent-color);
 }
@@ -372,14 +386,19 @@ ul {
 
 .clients-list {
     display: flex;
-    text-align: center;
+   
+
+    
 }
 
 .clients-list .item {
     width: 170px;
-    
+    text-align: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    
+  
+    
 }
 
 .clients-list .item:not(:last-child) {
@@ -388,6 +407,8 @@ ul {
 
 .clients-list .link {
     color: var(--link-color);
+    display: block;
+    
 }
 .clients-list .link:hover,
 .clients-list .link:focus {
@@ -404,7 +425,7 @@ ul {
     display: flex;
     padding-top: 48px;
     padding-bottom: 28px;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -428,6 +449,7 @@ ul {
 .address-list {
     display: flex;
     flex-direction: column;
+    margin-right: 69px;
 }
 
 .address-list .text {
@@ -565,7 +587,6 @@ ul {
 .section-portfolio .title {
     color: var(--second-title-color);
 
-    margin-top: 0;
     margin-bottom: 0;
     
 }
@@ -577,6 +598,7 @@ ul {
 }
 
 .card-list .item {
+    
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -595,7 +617,7 @@ ul {
 .card-list .title {
     color: var(--title-text-color);
 
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -618,6 +640,7 @@ ul {
 }
 
 .card-list .link {
+    display: block;
     text-decoration: none;
 }
 
